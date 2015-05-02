@@ -10,4 +10,4 @@ Replace yellow skin WhatsApp emoji to the original one
 6. Select the unzipped folder
 
 ## Any Problem?
-Add issue to the repository. Thank!
+Add issue to the repository. Thanks!
