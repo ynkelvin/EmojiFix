@@ -1,0 +1,23 @@
+{
+   "name": "WhatsApp Emoji Fix",
+   "manifest_version": 2,
+   "version": "1.0.0",
+
+   "description": "This is to replace the new yellow skin whatsapp emoji with the original one.",
+   "icons": {
+      "128": "icon/icon128.png",
+      "16": "icon/icon16.png",
+      "48": "icon/icon48.png"
+   },
+
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "replace.js" ],
+      "matches": [ "*://web.whatsapp.com/*" ]
+   } ],
+   "web_accessible_resources": [
+      "images/*"
+   ]
+}
